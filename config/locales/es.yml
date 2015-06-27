@@ -1,0 +1,85 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+es:
+  month: "mes"
+  navbar:
+    servicios: "Servicios"
+    projects: "Proyectos"
+    pricing: "Precios"
+    contact: "Contacto"
+    login: "Entrar"
+  header:
+    slogan: "Geolocalizando tu mundo"
+    more: "Saber más"
+  about:
+    title: "¿Quieres aprovechar al máximo la geolocalización?"
+    description1: "El framework CtOS Enabler te permite integrar geolocalización en tus aplicaciones y obtener ventajas competitivas sin dolores de cabeza."
+    description2: "Con CtOS Enabler lo tienes todo hecho. Tan sólo incluye el paquete CtOS Enabler en tu aplicación y estarás a un click de conocer mejor tu empresa."
+    start: "¡Empieza ahora!"
+  services:
+    title: "¿Qué te ofrecemos?"
+    geotools:
+      title: "Geo-herramientas"
+      description: "Todo en uno en geolocalización, listo para integrar en tu aplicación."
+    geostats:
+      title: "Geo-estadísticas"
+      description: "Obtén información detallada de los datos geolocalizados y empieza a conocer tu empresa."
+    panel:
+      title: "Panel gráfico"
+      description: "No necesitarás un perfil técnico para administrar tus zonas y datos geoposicionados."
+  portfolio:
+    smartlights:
+      category: "Smart City"
+      title: "Smart Lights"
+    georep:
+      category: "Apps sociales"
+      title: "Georep"
+    moh:
+      category: "Videojuegos"
+      title: "Map of History"
+  pricing:
+    title: "¡Comienza a utilizar CtOS Enabler!"
+    subtitle: "Estamos empezando, pero si deseas saber más sobre CtOS Enabler, contacta con nosotros."
+    packs:
+      cave: "Cueva"
+      hamlet: "Aldea"
+      village: "Poblado"
+      city: "Ciudad"
+      metropoli: "Metrópolis"
+      imperium: "Imperio"
+    stats: "Estadísiticas"
+    basic: "básicas"
+    general: "generales"
+    detailed: "detalladas"
+    storage: "Almacenamiento"
+    support: "Soporte"
+    forums: "foros"
+    email: "e-mail"
+    soon: "Próximamente..."
+  contact:
+    title: "Contáctanos"
+    body1: "¿Estás pensando en usar CtOS Enabler y tienes alguna duda?"
+    body2: "Contacta con nosotros y te atenderemos encantados."
+
+
+
+

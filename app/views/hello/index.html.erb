@@ -1,0 +1,350 @@
+
+
+<body id="page-top">
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="page-scroll" href="#page-top"><div class="col-lg-6"><img  class="col-lg-12 col-md-8 col-sm-5 col-xs-5 mini-logo"  alt="CtOS Enabler"/></div></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="page-scroll" href="#about">CtOS Enabler</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#services"><%= t "navbar.servicios" %></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#portfolio"><%= t "navbar.projects" %></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#pricing"><%= t "navbar.pricing" %></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact"><%= t "navbar.contact" %></a>
+        </li>
+        <li class="login-li">
+          <a class="page-scroll"><%= t "navbar.login" %></a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<header>
+  <div class="header-content">
+    <div class="header-content-inner">
+      <img class="col-lg-8 col-lg-offset-2 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" src="/assets/ctos_enabler_logo.png" alt="CtOS Enabler"/>
+      <h1 class="font-special"><%=	 t "header.slogan" %></h1>
+      <hr>
+
+      <a href="#about" class="btn btn-primary btn-xl page-scroll"><%= t "header.more" %></a>
+    </div>
+  </div>
+</header>
+
+<section class="bg-primary" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading"><%= t "about.title" %></h2>
+        <hr class="light">
+        <p class="text-faded"><%= t "about.description1" %></p>
+        <p class="text-faded"><%= t "about.description2" %></p>
+        <a href="#pricing" class="btn btn-default btn-xl"><%= t "about.start" %></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading"><%= t "services.title" %></h2>
+        <hr class="primary">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 text-center">
+        <div class="service-box">
+          <i class="fa fa-4x fa-cogs wow bounceIn text-primary"></i>
+          <h3><%= t "services.geotools.title" %></h3>
+          <p class="text-muted"><%=	 t "services.geotools.description" %></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 text-center">
+        <div class="service-box">
+          <i class="fa fa-4x fa-line-chart wow bounceIn text-primary" data-wow-delay=".1s"></i>
+          <h3><%= t "services.geostats.title" %></h3>
+          <p class="text-muted"><%= t "services.geostats.description" %></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 text-center">
+        <div class="service-box">
+          <i class="fa fa-4x fa-desktop wow bounceIn text-primary" data-wow-delay=".2s"></i>
+          <h3><%= t "services.panel.title" %></h3>
+          <p class="text-muted"><%= t "services.panel.description" %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="no-padding" id="portfolio">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="col-lg-4 col-sm-6">
+        <a href="#" class="portfolio-box">
+          <img src="/assets/portfolio/1.jpg" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                <%=	t "portfolio.smartlights.category" %>
+              </div>
+              <div class="project-name">
+                <%=	 t "portfolio.smartlights.title" %>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="#" class="portfolio-box">
+          <img src="/assets/portfolio/2.jpg" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                <%= t "portfolio.georep.category" %>
+              </div>
+              <div class="project-name">
+                <%=	 t "portfolio.georep.title" %>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="#" class="portfolio-box">
+          <img src="/assets/portfolio/3.jpg" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                <%= t "portfolio.moh.category" %>
+              </div>
+              <div class="project-name">
+                <%= t "portfolio.moh.title" %>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!--<div class="col-lg-4 col-sm-6">-->
+      <!--<a href="#" class="portfolio-box">-->
+      <!--<img src="img/portfolio/4.jpg" class="img-responsive" alt="">-->
+      <!--<div class="portfolio-box-caption">-->
+      <!--<div class="portfolio-box-caption-content">-->
+      <!--<div class="project-category text-faded">-->
+      <!--Category-->
+      <!--</div>-->
+      <!--<div class="project-name">-->
+      <!--Project Name-->
+      <!--</div>-->
+      <!--</div>-->
+      <!--</div>-->
+      <!--</a>-->
+      <!--</div>-->
+      <!--<div class="col-lg-4 col-sm-6">-->
+      <!--<a href="#" class="portfolio-box">-->
+      <!--<img src="img/portfolio/5.jpg" class="img-responsive" alt="">-->
+      <!--<div class="portfolio-box-caption">-->
+      <!--<div class="portfolio-box-caption-content">-->
+      <!--<div class="project-category text-faded">-->
+      <!--Category-->
+      <!--</div>-->
+      <!--<div class="project-name">-->
+      <!--Project Name-->
+      <!--</div>-->
+      <!--</div>-->
+      <!--</div>-->
+      <!--</a>-->
+      <!--</div>-->
+      <!--<div class="col-lg-4 col-sm-6">-->
+      <!--<a href="#" class="portfolio-box">-->
+      <!--<img src="img/portfolio/6.jpg" class="img-responsive" alt="">-->
+      <!--<div class="portfolio-box-caption">-->
+      <!--<div class="portfolio-box-caption-content">-->
+      <!--<div class="project-category text-faded">-->
+      <!--Category-->
+      <!--</div>-->
+      <!--<div class="project-name">-->
+      <!--Project Name-->
+      <!--</div>-->
+      <!--</div>-->
+      <!--</div>-->
+      <!--</a>-->
+      <!--</div>-->
+    </div>
+  </div>
+</section>
+
+<section class="no-padding" id="pricing">
+  <aside class="bg-dark">
+    <div class="container text-center">
+      <h2><%= t "pricing.title" %></h2>
+      <h3><%= t "pricing.subtitle" %></h3>
+
+      <section id="pricePlans">
+        <ul id="plans">
+          <li class="plan">
+            <ul class="planContainer">
+              <li class="title"><h2><%= t "pricing.packs.cave" %></h2></li>
+              <li class="price"><p>0€/<span><%= t "month"%></span></p></li>
+              <li>
+                <ul class="options">
+                  <li><span><%= t "pricing.storage" %></span> 100MB</li>
+                  <li><span><%= t "pricing.stats" %></span> <%= t "pricing.basic" %></li>
+                  <li><span><%= t "pricing.support" %></span> <%= t "pricing.forums"%></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-xl wow"><%= t "pricing.soon" %></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="plan">
+            <ul class="planContainer">
+              <li class="title"><h2><%= t "pricing.packs.hamlet" %></h2></li>
+              <li class="price"><p>30€/<span><%= t "month" %></span></p></li>
+              <li>
+                <ul class="options">
+                  <li><span><%= t "pricing.storage" %></span> 1GB</li>
+                  <li><span><%= t "pricing.stats" %></span> <%= t "pricing.general" %></li>
+                  <li><span><%= t "pricing.support" %></span> <%= t "pricing.email"%></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-xl wow"><%= t "pricing.soon" %></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="plan">
+            <ul class="planContainer">
+              <li class="title"><h2 class="bestPlanTitle"><%= t "pricing.packs.village" %></h2></li>
+              <li class="price"><p class="bestPlanPrice">80€/<%= t "month" %></p></li>
+              <li>
+                <ul class="options">
+                  <li><span><%= t "pricing.storage" %></span> 10GB</li>
+                  <li><span><%= t "pricing.stats" %></span> <%= t "pricing.general" %></li>
+                  <li><span><%= t "pricing.support" %></span> <%= t "pricing.email"%></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-xl wow"><%= t "pricing.soon" %></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="plan">
+            <ul class="planContainer">
+              <li class="title"><h2><%=	 t "pricing.packs.city" %></h2></li>
+              <li class="price"><p>200€/<span><%= t "month" %></span></p></li>
+              <li>
+                <ul class="options">
+                  <li><span><%= t "pricing.storage" %></span> 30GB</li>
+                  <li><span><%= t "pricing.stats" %></span> <%= t "pricing.detailed"%></li>
+                  <li><span><%= t "pricing.support" %></span> <%= t "pricing.email"%></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-xl wow"><%= t "pricing.soon" %></a>
+              </li>
+            </ul>
+          </li>
+
+          <!--<li class="plan">-->
+          <!--<ul class="planContainer">-->
+          <!--<li class="title"><h2>Plan 5</h2></li>-->
+          <!--<li class="price"><p>800€/<span>month</span></p></li>-->
+          <!--<li>-->
+          <!--<ul class="options">-->
+          <!--<li><span>Espacio</span> 200GB</li>-->
+          <!--<li><span>Estadísticas</span> detalladas</li>-->
+          <!--<li><span>Soporte</span> teléfono</li>-->
+          <!--</ul>-->
+          <!--</li>-->
+          <!--<li>-->
+          <!--<a href="#" class="btn btn-default btn-xl wow">¡Empezar!</a>-->
+          <!--</li>-->
+          <!--</ul>-->
+          <!--</li>-->
+
+          <!--<li class="plan">-->
+          <!--<ul class="planContainer">-->
+          <!--<li class="title"><h2>Plan 6</h2></li>-->
+          <!--<li class="price"><p>1600€/<span>mes</span></p></li>-->
+          <!--<li>-->
+          <!--<ul class="options">-->
+          <!--<li><span>Espacio</span> ilimitado</li>-->
+          <!--<li><span>Estadísticas</span> detalladas</li>-->
+          <!--<li><span>Soporte</span> teléfono</li>-->
+          <!--</ul>-->
+          <!--</li>-->
+          <!--<li>-->
+          <!--<a href="#" class="btn btn-default btn-xl wow">¡Empezar!</a>-->
+          <!--</li>-->
+          <!--</ul>-->
+          <!--</li>-->
+        </ul> <!-- End ul#plans -->
+      </section>
+    </div>
+  </aside>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading"><%= t "contact.title" %></h2>
+        <hr class="primary">
+        <p><%= t "contact.body1" %> <br/><%= t "contact.body2" %></p>
+      </div>
+
+      <div class="col-lg-12 text-center">
+        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+        <p><a href="mailto:info@ctosenabler.com">info@ctosenabler.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Plugin JavaScript -->
+<%= javascript_include_tag "jquery.easing.min" %>
+<%= javascript_include_tag "jquery.fittext" %>
+<%= javascript_include_tag "wow.min" %>
+
+
+
+<!-- Custom Theme JavaScript -->
+<%= javascript_include_tag "creative" %>
+
+
+</body>

@@ -1,0 +1,81 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+    navbar:
+      servicios: "Services"
+      projects: "Projects"
+      pricing: "Pricing"
+      contact: "Contact"
+      login: "Log in"
+    header:
+      slogan: "Your business on the map"
+      more: "I want to know more"
+    about:
+      title: "Do you want to make geolocation useful?"
+      description1: "CtOS Enabler framework allows you to integrate geolocation in your apps and gain competitive advantages without headaches."
+      description2: "CtOS Enabler is ready to use. You just have to include our CtOS Enabler package in you app and you will be a click far from knowing better your company."
+      start: "Start now!"
+    services:
+      title: "What do we offer you?"
+      geotools:
+        title: "Geo-tools"
+        description: "All in one in geolocation, ready to integrate in your app."
+      geostats:
+        title: "Geo-stats"
+        description: "Get detailed information of geolocated data and start to know your business."
+      panel:
+        title: "Graphical Panel"
+        description: "You don't need to be a technical expert to manage your influence areas and geolocated data."
+    portfolio:
+      smartlights:
+        category: "Smart City"
+        title: "Smart Lights"
+      georep:
+        category: "Social apps"
+        title: "Georep"
+      moh:
+        category: "Videogames"
+        title: "Map of History"
+    pricing:
+      title: "Start using CtOS Enabler!"
+      subtitle: "We are just starting, but if you would like to know more about CtOS Enabler, contact us."
+      packs:
+        cave: "Cave"
+        hamlet: "Hamlet"
+        village: "Village"
+        city: "City"
+        metropoli: "Metropoli"
+        imperium: "Imperium"
+      stats: "Statistics"
+      basic: "basic"
+      general: "general"
+      detailed: "detailed"
+      storage: "Storage"
+      support: "Support"
+      forums: "forums"
+      email: "e-mail"
+      soon: "Soon..."
+    contact:
+      title: "Contact us"
+      body1: "Having some questions when using CtOS Enabler?"
+      body2: "Contacts us and we will solve your doubts gladly."
+
