@@ -41,3 +41,6 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'font-awesome-sass', '~> 4.3.0'
 
+gem 'google-analytics-rails'
+
+
