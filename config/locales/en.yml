@@ -20,6 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+    month: "month"
+    server: "server"
+    client: "client"
     navbar:
       servicios: "Services"
       projects: "Projects"
@@ -78,4 +81,15 @@ en:
       title: "Contact us"
       body1: "Having some questions when using CtOS Enabler?"
       body2: "Contacts us and we will solve your doubts gladly."
+
+
+    #Modals
+    modal:
+      smartlights:
+        intro: "Smart Lights is a traffic lights control system whose purpose is to give priority to emergency services, like ambulances, police or firemen, or other services that may affect the state of traffic, to reach their destination, allowing them to avoid jams or other traffic troubles."
+        description: "The project is structured in three main parts:"
+        server: "In charge of route calculations and delivery of information related to traffic lights and authentication to the client.
+                 Its developed using Ruby, with Ruby on Rails framework. It uses a geolocation framework, CtOS Enabler, which contains all the data related to the traffic lights, such as their location, security keys, zone of influence, etc. and is used to, based on the client's current location, given in coordinates, return the authentication data to the client."
+        client: "Its located in the vehicle or authority which is in state of emergency or needs to regulate the traffic. It handles the communication, via Bluetooth, between the Arduino located on the traffic light, and the Server system. It displays the current location and route used by the vehicle, and also gives the option to choose the level of emergency."
+        arduino: "Is the traffic light control device. It needs a security code to identify authority users, to prevent illegal use, and has a Bluetooth interface with a 30 meters radius, to connect with the Client before it reaches the light. "
 

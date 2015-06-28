@@ -21,6 +21,8 @@
 
 es:
   month: "mes"
+  server: "servidor"
+  client: "cliente"
   navbar:
     servicios: "Servicios"
     projects: "Proyectos"
@@ -79,7 +81,16 @@ es:
     title: "Contáctanos"
     body1: "¿Estás pensando en usar CtOS Enabler y tienes alguna duda?"
     body2: "Contacta con nosotros y te atenderemos encantados."
-
+  modal:
+    smartlights:
+      intro: "Smart Lights es un sistema de control de tráfico cuyo propósito es dar prioridad a los servicios de emergencia,
+      como ambulancias, policía o bomberos, u otros servicios que afecten el estado del tráfico,
+      para que lleguen a su destino, permitiéndoles evitar obstaculizar el tráfico."
+      server: "Se encarga de los cálculos y envío de la información relacionada con los semáforos y la autenticación del cliente
+                   Utiliza el framework de geolocalización de CtOS Enabler, que contiene todos los datos relacionados con los semáforos, como su posición, clave de seguridad, zona de influencia, etc. y se usa para, basándose en la localización del cliente, devolver los datos de autenticación al cliente."
+      client: "Está localizado en el vehículo o autoridad que está en estado de emergencia o necesita regular el tráfico. Gestiona la comunicación, via Bluetooth, entre el dispositivo Arduino del semáforo y el sistema servidor. Muestra la localización actual y la ruta usada por el vehículo,
+              y también da la opción de establecer el nivel de emergencia."
+      arduino: "Es el dispositivo que controla el semáforo. Necesita un código de seguridad para identificar a los usuarios autorizados, y así prevenir un uso indebido, y posee una interfaz Bluetooth con un rango de 30 metros, para conectar con el cliente antes de que llegue al semáforo. "
 
 
 
